@@ -12,7 +12,20 @@
 
 /* Weather Widget */
 .weatherWidget {
-  background: linear-gradient(145deg, #e8f2ff, #ffffff);
+  position: relative;
+  background: linear-gradient(145deg, #f9fcff, #ffffff);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.weatherWidget h2 {
+  font-size: 1.1rem;
+  color: #004aad;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 /* Search input + button */
