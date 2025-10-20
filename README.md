@@ -1,4 +1,4 @@
-# Personal website built using React
+# Personal website using React
 
 ```
 📦 personal-website
